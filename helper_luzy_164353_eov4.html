@@ -1,0 +1,87 @@
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const isEven = num => num % 2 === 0;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const reverseString = str => str.split("").reverse().join("");
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+banana
+
+const variableName = getRandomNumber();
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+21 - true
+let array = getRandomArray(); array.forEach(item => console.log(item));
+29 / 51
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+10,38,20,2,53,68,32,88,6,77,12,25,68,31,63,14,46,34,10,4,3,98,75,42,46,94,16,48,94,96,0,42,72,27,83,10,76,28,58,1,30,29,31,7,24,26,92,0,76,58,46,33,23,75 * true
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+8 * 42
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+21 / kiwi
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+70,86,9,70,4,68,60,44,92,60,5,39,57,14,95,45 + 99,66,27,65
+const greet = name => `Hello, ${name}!`;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const variableName = getRandomNumber();
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange
+
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+const multiply = (a, b) => a * b;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false / 66,91,72,24,93,37,71,62,14,63,24,16,7,61,19,42,79,68,30,74,54,91,79,15,48,18,82,35,64,38,93,79,7,58,79,82,90,98,71,42
+function addNumbers(a, b) { return a + b; }
+true / false
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+4 + false
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+banana * apple
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+orange
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+apple
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+94,55,97,76,76,70,12,91,41,79,28,55,44,91,81,65,82,36,50,59,68,71,47,37,51,4,77,73,71,71,47,38,42,74,55,50,86,51,41,19,94,79,4,28,94,37,50,74,37,37,1,22,67,65,5,54,49,30,16,86,52,44,86,34,43,43,23,65,62,16,61,35,14,76,55,91,16,27,14,17,0,61,51,40,63,27,36 - 28
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+0 * false
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+class MyClass { constructor() { this.property = getRandomString(); } }
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
